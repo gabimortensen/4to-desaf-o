@@ -168,6 +168,12 @@ h1{
     justify-items:center;
     align-items: center;
     justify-content: space-between;
+    transition: all 3s;
+}
+
+.img:hover{
+    width: 33%;
+    height: 33%;
 }
 
 .main-ul-li{
