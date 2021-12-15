@@ -21,7 +21,7 @@ h1{
 }
 .header{
     display: none;
-    background-color: #D3E4CD;
+    background-image: linear-gradient(to bottom, #A2B29F, #D3E4CD);
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@ h1{
     padding: 3px;
 }
 
-main p{
+main h1{
     color:black;
     text-decoration: solid;
     text-align: right;
