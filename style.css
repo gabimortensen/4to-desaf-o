@@ -178,7 +178,7 @@ h1{
 
 .main-ul-li{
     color: #F2DDC1;
-    background-color: #99A799;
+    background-image: linear-gradient(to bottom, #798777, #BDD2B6);
     border: 1px solid #F2DDC1;
     padding: 15px;
 }
