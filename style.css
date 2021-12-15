@@ -48,6 +48,17 @@ main h1{
     font-size:x-large;
     margin-right: 10%;
     margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    animation-name: animate__flipInX;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+}
+
+@keyframes animate__flipInX{
+    0% {font-size: xx-large; }
 }
 
 section article{
@@ -72,7 +83,7 @@ h1{
 }
 .header{
     display: none;
-    background-color: #D3E4CD;
+    background-image: linear-gradient(to bottom, #A2B29F, #D3E4CD);
     padding: 15px;
     display: flex;
     justify-content: center;
